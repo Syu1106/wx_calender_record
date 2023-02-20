@@ -7,7 +7,7 @@ const conf = {
   },
   onShow: function() {
     initCalendar({ disablePastDay: true}); //  自定义配置 initCalendar({ multi: true, ... })
-    // jump(2018, 6, 6);
+    // jump(2018, 6, 6) 1;
   }
 };
 Page(conf);
